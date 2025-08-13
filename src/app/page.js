@@ -51,8 +51,7 @@ export default function Home() {
           fullWidth
           sx={{
             background: "white",
-            borderRadius: 2,
-            marginBottom: 3,}}/>
+            borderRadius: 2,marginBottom: 3,}}/>
 
         {loading ? (
           <CircularProgress sx={{ color: "white" }} />
