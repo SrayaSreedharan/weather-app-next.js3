@@ -57,7 +57,7 @@ export default function Home() {
           weather && weather.main && (
             <Card
               sx={{
-      background: "rgba(255,255,255,0.2)",color: "white",borderRadius: 4,boxShadow: "0 8px 32px rgba(0,0,0,0.2)",backdropFilter: "blur(10px)",}}>
+    background: "rgba(255,255,255,0.2)",color: "white",borderRadius: 4,boxShadow: "0 8px 32px rgba(0,0,0,0.2)",backdropFilter: "blur(10px)",}}>
               <CardContent>
                 <Typography variant="h5" gutterBottom>
                   {weather.name}, {weather.sys.country}
