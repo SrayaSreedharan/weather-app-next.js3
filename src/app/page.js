@@ -6,8 +6,7 @@ import {
   Card,
   CardContent,
   Typography,
-  CircularProgress,
-} from "@mui/material";
+  CircularProgress,} from "@mui/material";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import CloudIcon from "@mui/icons-material/Cloud";
 import OpacityIcon from "@mui/icons-material/Opacity";
