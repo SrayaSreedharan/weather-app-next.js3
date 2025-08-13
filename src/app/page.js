@@ -35,8 +35,7 @@ export default function Home() {
   };
 
   return (
-    <div
-      style={{minHeight: "100vh",background: "linear-gradient(to bottom right, #6DD5FA, #2980B9)",display: "flex",alignItems: "center",justifyContent: "center",padding: "20px",}}>
+    <div style={{minHeight: "100vh",background: "linear-gradient(to bottom right, #6DD5FA, #2980B9)",display: "flex",alignItems: "center",justifyContent: "center",padding: "20px",}}>
       <Container
         maxWidth="sm"
         sx={{
