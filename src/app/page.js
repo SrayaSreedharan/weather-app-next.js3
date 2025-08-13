@@ -62,7 +62,7 @@ export default function Home() {
                 borderRadius: 4,
                 boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
                 backdropFilter: "blur(10px)",
-              }}>
+      }}>
               <CardContent>
                 <Typography variant="h5" gutterBottom>
                   {weather.name}, {weather.sys.country}
