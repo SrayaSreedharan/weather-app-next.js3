@@ -39,8 +39,7 @@ export default function Home() {
       <Container
         maxWidth="sm"
         sx={{
-          textAlign: "center",
-          color: "white",}}>
+          textAlign: "center",color: "white",}}>
         <Typography variant="h3" fontWeight="bold" gutterBottom>
           🌤 Weather App
         </Typography>
