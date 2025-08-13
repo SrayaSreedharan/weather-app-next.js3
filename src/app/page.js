@@ -40,8 +40,7 @@ export default function Home() {
         maxWidth="sm"
         sx={{
           textAlign: "center",
-          color: "white",
-        }}>
+          color: "white",}}>
         <Typography variant="h3" fontWeight="bold" gutterBottom>
           🌤 Weather App
         </Typography>
