@@ -52,8 +52,7 @@ export default function Home() {
           sx={{
             background: "white",
             borderRadius: 2,
-            marginBottom: 3,
-          }}/>
+            marginBottom: 3,}}/>
 
         {loading ? (
           <CircularProgress sx={{ color: "white" }} />
