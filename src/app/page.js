@@ -43,8 +43,7 @@ export default function Home() {
         alignItems: "center",
         justifyContent: "center",
         padding: "20px",
-      }}
-    >
+      }}>
       <Container
         maxWidth="sm"
         sx={{
