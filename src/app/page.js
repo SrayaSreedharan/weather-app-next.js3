@@ -70,10 +70,10 @@ export default function Home() {
                   {getWeatherIcon()}
                 </div>
                 <Typography>
-                  💧 Humidity: {weather.main.humidity}%
+                  Humidity: {weather.main.humidity}%
                 </Typography>
                 <Typography>
-                  🌬 Wind: {weather.wind.speed} m/s
+                  Wind: {weather.wind.speed} m/s
                 </Typography>
               </CardContent>
             </Card>
