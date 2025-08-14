@@ -42,8 +42,7 @@ export default function Home() {
           🌤 Weather App
         </Typography>
 
-        <TextField
-          label="Enter City"
+        <TextField label="Enter City"
           variant="outlined"
           value={city}
           onChange={(e) => setCity(e.target.value)}
