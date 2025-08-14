@@ -46,8 +46,7 @@ export default function Home() {
           label="Enter City" 
           variant="outlined"
           value={city}  
-          onChange={(e) => setCity(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
+          onChange={(e) => setCity(e.target.value)} onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           fullWidth 
           sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
 
