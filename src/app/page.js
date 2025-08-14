@@ -48,7 +48,8 @@ export default function Home() {
           value={city}  
           onChange={(e) => setCity(e.target.value)} 
           onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
-          fullWidth  sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
+          fullWidth  
+          sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
 
         {loading ? (
           <CircularProgress sx={{ color: "white" }} />
