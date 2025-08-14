@@ -42,7 +42,8 @@ export default function Home() {
           🌤 Weather App
         </Typography>
 
-        <TextField label="Enter City" variant="outlined"
+        <TextField 
+        label="Enter City" variant="outlined"
           value={city} onChange={(e) => setCity(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           fullWidth 
