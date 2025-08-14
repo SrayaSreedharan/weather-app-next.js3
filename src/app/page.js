@@ -43,8 +43,7 @@ export default function Home() {
         </Typography>
 
         <TextField label="Enter City" variant="outlined"
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
+          value={city} onChange={(e) => setCity(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           fullWidth 
           sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
