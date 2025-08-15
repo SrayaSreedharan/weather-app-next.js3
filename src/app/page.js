@@ -50,7 +50,6 @@ export default function Home() {
           onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           fullWidth  
           
-          
           sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
 
         {loading ? (
