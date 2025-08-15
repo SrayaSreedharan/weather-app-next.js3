@@ -43,7 +43,7 @@ export default function Home() {
         </Typography>
 
         <TextField 
-          label="Enter City" 
+      label="Enter City" 
           variant="outlined"
           value={city}  
           onChange={(e) => setCity(e.target.value)} 
