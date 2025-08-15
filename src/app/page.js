@@ -49,6 +49,8 @@ export default function Home() {
           onChange={(e) => setCity(e.target.value)} 
           onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           fullWidth  
+          
+          
           sx={{background: "white",borderRadius: 2,marginBottom: 3,}}/>
 
         {loading ? (
